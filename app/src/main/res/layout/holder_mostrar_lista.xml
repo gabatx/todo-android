@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:backgroundTint="#00FFFFFF"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/cardViewHolder">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:background="@drawable/fondo_agregar_tarea"
+                android:id="@+id/areaTareaHolder">
+
+            <TextView
+                    android:text="Melocotones"
+                    android:textSize="16dp"
+                    android:textColor="@color/blanco_palido"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textoTareaHolder"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/completadoHolder"
+                    app:layout_constraintEnd_toStartOf="@+id/boton_borrar_item" />
+
+
+            <CheckBox
+                    android:id="@+id/completadoHolder"
+                    android:buttonTint="@color/blanco_checkbox"
+                    style="@style/CheckboxPersonalizado"
+                    android:layout_marginStart="12dp"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="TouchTargetSizeCheck"
+                    android:checked="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            <CheckBox
+                    android:id="@+id/favoritoHolder"
+                    android:buttonTint="@color/blanco_checkbox"
+                    android:layout_width="35dp"
+                    android:layout_height="48dp"
+                    android:indeterminateTint="@color/blanco_palido"
+                    style="@style/CheckboxFavoritosPersonalizado"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:checked="false" />
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/icono_borrar_item"
+                    android:id="@+id/boton_borrar_item"
+                    app:layout_constraintEnd_toStartOf="@+id/favoritoHolder"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginEnd="10dp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

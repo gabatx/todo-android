@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/14_RecyclerView_AppTodo/app/src/main/res/drawable/checkbox_selector_favorito.xml" value="0.333" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/14_RecyclerView_AppTodo/app/src/main/res/layout/activity_agregar_tarea.xml" value="0.33489583333333334" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/14_RecyclerView_AppTodo/app/src/main/res/layout/activity_editar_tarea.xml" value="0.32974358974358975" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/14_RecyclerView_AppTodo/app/src/main/res/layout/activity_muestra_lista.xml" value="0.33489583333333334" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/14_RecyclerView_AppTodo/app/src/main/res/layout/holder_mostrar_lista.xml" value="0.2742382271468144" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/14_RecyclerView_AppTodo/app/src/main/res/menu/toolbar_acerca_de.xml" value="0.33489583333333334" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/14_RecyclerView_AppTodo/app/src/main/res/menu/toolbar_agregar_tarea.xml" value="0.32974358974358975" />
+        <entry key="..\:/01_Curso/Asignaturas/Android/02_ejercicios/14_RecyclerView_AppTodo/app/src/main/res/menu/toolbar_muestra_lista.xml" value="0.32974358974358975" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/checkbox_selector.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/checkbox_selector_favorito.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/cursor.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/fondo_agregar_tarea.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/icono_checked.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/icono_estrella.xml" value="0.3325" />
+        <entry key="app/src/main/res/drawable/icono_estrella_completa.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/icono_tres_puntos.xml" value="0.244" />
+        <entry key="app/src/main/res/drawable/ratingbar_personalizado.xml" value="0.23" />
+        <entry key="app/src/main/res/drawable/vector_checked.xml" value="0.4085" />
+        <entry key="app/src/main/res/drawable/vector_unchecked.xml" value="0.4085" />
+        <entry key="app/src/main/res/font/roboto.xml" value="0.4395833333333333" />
+        <entry key="app/src/main/res/layout/activity_acerca_de.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_agregar_tarea.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_editar_tarea.xml" value="0.409375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3953125" />
+        <entry key="app/src/main/res/layout/activity_muestra_lista.xml" value="0.409375" />
+        <entry key="app/src/main/res/layout/holder_mostrar_lista.xml" value="0.5" />
+        <entry key="app/src/main/res/menu-v26/toolbar_muestra_lista.xml" value="0.409375" />
+        <entry key="app/src/main/res/menu/toolbar_acerca_de.xml" value="0.40307692307692305" />
+        <entry key="app/src/main/res/menu/toolbar_agregar_tarea.xml" value="0.409375" />
+        <entry key="app/src/main/res/menu/toolbar_menu_lista.xml" value="2.807142857142857" />
+        <entry key="app/src/main/res/menu/toolbar_muestra_lista.xml" value="0.409375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

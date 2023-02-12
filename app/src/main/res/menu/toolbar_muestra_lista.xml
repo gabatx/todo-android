@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/boton_borrar_todo"
+            android:icon="@drawable/icono_papelera"
+            android:title="Añadir"
+            app:showAsAction="ifRoom" />
+
+    <item
+            android:id="@+id/boton_acerca_de"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Acerca de"
+            app:contentInsetStart="0dp"
+            app:showAsAction="never" />
+
+</menu>

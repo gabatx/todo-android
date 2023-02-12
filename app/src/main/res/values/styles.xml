@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RobotoRegular">
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="RobotoBold">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <!-- Toolbar: muestra las fuentes con Roboto -->
+    <style name="ToolbarTheme" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:itemBackground">@color/white</item>
+        <item name="android:textColor">@color/holder</item>
+    </style>
+
+    <!--RatingBar-->
+
+    <style name="CheckboxPersonalizado" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="CheckboxFavoritosPersonalizado" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector_favorito</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>
